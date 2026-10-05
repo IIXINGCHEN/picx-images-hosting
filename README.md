@@ -4,15 +4,15 @@
 
 ## 目录结构
 
-| 目录 | 说明 | 来源 |
-|---|---|---|
-| `dongman/` | 动漫图片（初始 270 张） | 原始图库 |
-| `images/` | 通用图片（初始 385 张） | 原始图库 |
-| `acg/` | ACG 随机图（持续增长） | app.zichen.zone 采集 |
-| `moehu/` | MoeHu 图集（按图集分子目录，持续增长） | img.moehu.org 采集 |
-| `fuchen/` | 浮尘随机图（`dongman/` 动漫、`fengjing/` 风景） | api.fuchenboke.cn 采集 |
+按**内容**组织（英文小写扁平命名），来源信息由平台数据库维护：
 
-`moehu/` 子目录即图集 ID（如 `img1`、`sjpic`、`ys`、`cat`），每个子目录最多保留 50 张精选。
+| 目录 | 说明 |
+|---|---|
+| `anime/` | 动漫（含二次元、游戏、虚拟主播、角色） |
+| `scenery/` | 风景、星空 |
+| `portrait/` | 人像 |
+| `pets/` | 萌宠 |
+| `misc/` | 待分类 / 其他 |
 
 ## 访问方式
 
@@ -25,7 +25,7 @@ https://cdn.jsdelivr.net/gh/IIXINGCHEN/picx-images-hosting@master/<目录>/<sha2
 示例：
 
 ```
-https://cdn.jsdelivr.net/gh/IIXINGCHEN/picx-images-hosting@master/moehu/ys/xxx.webp
+https://cdn.jsdelivr.net/gh/IIXINGCHEN/picx-images-hosting@master/anime/xxx.webp
 ```
 
 ## 图片规范
